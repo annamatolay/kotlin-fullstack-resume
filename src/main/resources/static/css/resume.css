@@ -190,3 +190,16 @@ a {
 a:hover, a:focus, a:active {
   color: #000000;
 }
+
+.recommendation {
+    color: #000000;
+}
+
+.self-definition {
+    color: #fff;
+    text-orientation: sideways-right;
+}
+
+.carousel-control{
+  color:#000
+}

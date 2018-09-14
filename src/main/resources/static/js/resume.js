@@ -31,6 +31,10 @@
         duration: 1000,
         delay: 200
     });
+    sr.reveal('.sr-self', {
+            duration: 2000,
+            delay: 400
+        }, 200);
     sr.reveal('.sr-icons', {
         duration: 600,
         scale: 0.3,
