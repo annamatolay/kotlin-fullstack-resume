@@ -25,4 +25,16 @@
     target: '#sideNav'
   });
 
+// Initialize and Configure Scroll Reveal Animation
+    window.sr = ScrollReveal();
+    sr.reveal('.sr-connect', {
+        duration: 1000,
+        delay: 200
+    });
+    sr.reveal('.sr-icons', {
+        duration: 600,
+        scale: 0.3,
+        distance: '0px'
+    }, 100);
+
 })(jQuery); // End of use strict
